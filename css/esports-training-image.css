@@ -1,0 +1,24 @@
+.art-esports-training::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: url('../assets/images/esports-training.jpg') center / cover no-repeat;
+  filter: drop-shadow(0 12px 28px #5185ff44);
+  pointer-events: none;
+}
+
+.art-esports-training .offer-emoji,
+.art-esports-training .detail-emoji,
+.art-esports-training .art-tag {
+  display: none;
+}
+
+.detail-art.art-esports-training {
+  height: auto;
+  aspect-ratio: 1096 / 716;
+}
+
+.detail-art.art-esports-training::after {
+  background-size: contain;
+}

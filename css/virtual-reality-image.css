@@ -1,0 +1,24 @@
+.art-virtual-reality::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: url('../assets/images/virtual-reality-experience.jpg') center / cover no-repeat;
+  filter: drop-shadow(0 12px 28px #745bff44);
+  pointer-events: none;
+}
+
+.art-virtual-reality .offer-emoji,
+.art-virtual-reality .detail-emoji,
+.art-virtual-reality .art-tag {
+  display: none;
+}
+
+.detail-art.art-virtual-reality {
+  height: auto;
+  aspect-ratio: 1456 / 540;
+}
+
+.detail-art.art-virtual-reality::after {
+  background-size: contain;
+}

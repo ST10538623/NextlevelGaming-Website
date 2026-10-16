@@ -1,0 +1,20 @@
+.art-vip-gaming::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: url('../assets/images/vip-gaming-booth.png') center / contain no-repeat;
+  filter: drop-shadow(0 12px 28px #168bff44);
+  pointer-events: none;
+}
+
+.art-vip-gaming .offer-emoji,
+.art-vip-gaming .detail-emoji,
+.art-vip-gaming .art-tag {
+  display: none;
+}
+
+.detail-art.art-vip-gaming {
+  height: auto;
+  aspect-ratio: 1075 / 768;
+}

@@ -1,0 +1,24 @@
+.art-racing-simulator::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: url('../assets/images/racing-simulator.png') center / cover no-repeat;
+  filter: drop-shadow(0 12px 28px #2459b855);
+  pointer-events: none;
+}
+
+.art-racing-simulator .offer-emoji,
+.art-racing-simulator .detail-emoji,
+.art-racing-simulator .art-tag {
+  display: none;
+}
+
+.detail-art.art-racing-simulator {
+  height: auto;
+  aspect-ratio: 1044 / 768;
+}
+
+.detail-art.art-racing-simulator::after {
+  background-size: contain;
+}

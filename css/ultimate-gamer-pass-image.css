@@ -1,0 +1,28 @@
+.art-ultimate-gamer-pass::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: url('../assets/images/ultimate-gamer-pass-banner.jpg') center / contain no-repeat;
+  filter: drop-shadow(0 12px 28px #5185ff55);
+  pointer-events: none;
+}
+
+.art-ultimate-gamer-pass .offer-emoji,
+.art-ultimate-gamer-pass .detail-emoji {
+  display: none;
+}
+
+.art-ultimate-gamer-pass .art-tag {
+  display: none;
+}
+
+.detail-art.art-ultimate-gamer-pass::after {
+  background-size: contain;
+  background-position: center;
+}
+
+.detail-art.art-ultimate-gamer-pass {
+  height: auto;
+  aspect-ratio: 1194 / 658;
+}
